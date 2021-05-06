@@ -2,6 +2,30 @@
 <html class="rendering-engine re-master-2453" lang="en-GB">
 
 <head>
+  <!-- Google Analytics -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', {
+      trackingId: 'UA-182338376-2',
+      cookieDomain: 'auto',
+      siteSpeedSampleRate: 100
+    });
+
+    ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
+
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
   <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
@@ -12,6 +36,7 @@
   <link rel="stylesheet" href="https://mosaic01.ztat.net/base-assets/5-7-0/assets/style.css" />
   <link rel="stylesheet" href="https://mosaic02.ztat.net/nsg/dx-ui/atom-62.0.0.css" />
   <script src="https://mosaic01.ztat.net/base-assets/require-2.1.22.min.js" crossorigin></script>
+
   <script>
     (function (d) {
       require.config({
@@ -39,7 +64,6 @@
       }
     }(['https://mosaic01.ztat.net/base-assets/5-7-0/assets/bundle.js']));
   </script>
-
   <script>
     require(["https://mosaic02.ztat.net/rnd/ng/runtime-cafd461a69b1b464a6fd.js",
       "https://mosaic02.ztat.net/rnd/ng/re-commons-chunk-8b958df6-69db-4905-8e5f-d2c93717123c/index-32350dac7ffe0fcde888.js"
@@ -56,7 +80,6 @@
         return runtime.renderingEngineApi;
       })
   </script>
-
   <script>
     (function (a) {
       a.require(["z-shop-event-bus"], function (b) {
@@ -71,7 +94,6 @@
       })
     })(window);
   </script>
-
   <script>
     window.TailorPipe = function (n, e) {
         var r = {},
@@ -245,6 +267,7 @@
       isFallback: false
     };
   </script>
+
   <link rel="apple-touch-icon" href="https://mosaic02.ztat.net/rnd/ng/zalando-app-touch-icon-180-v1.png">
 
   <title>ZALANDO | High Street to High End Fashion Online</title>
@@ -278,6 +301,7 @@
       a.appendChild(r);
     })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
   </script>
+  <!-- End Hotjar Tracking Code for https://aram-yesildeniz.github.io/ -->
 </head>
 
 <body style="overflow-x: hidden">
